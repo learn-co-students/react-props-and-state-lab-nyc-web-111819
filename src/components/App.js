@@ -86,7 +86,7 @@ class App extends React.Component {
               <Filters filtersType={this.state.filters.type} onChangeType={this.onChangeType} onFindPetsClick={this.onFindPetsClick}/>
             </div>
             <div className="twelve wide column">
-              <PetBrowser pets={this.state.pets} isAdopted={this.state.isAdopted} onAdoptPet={this.onAdoptPet}/>
+              <PetBrowser pets={this.state.pets} onAdoptPet={this.onAdoptPet}/>
             </div>
           </div>
         </div>
